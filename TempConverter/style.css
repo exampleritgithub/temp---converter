@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(136, 206, 232),
+    rgb(238, 221, 134),
+    rgb(186, 210, 161),
+    rgb(202, 178, 142),
+    rgb(235, 235, 186)
+  );
+  width: 100;
+  height: 100vh;
+  color: rgb(169, 24, 24);
+  background-repeat: no-repeat;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  margin-left: 2%;
+  background-color: rgb(228, 232, 220);
+  border-radius: 20px;
+  box-shadow: -5px -5px 5px rgb(20, 21, 21);
+}
+.logo {
+  height: 20vh;
+  box-shadow: 5px 5px 5px rgb(26, 27, 28);
+  border-radius: 50%;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  gap: 5%;
+ 
+}
+.main img {
+  border-radius: 50%;
+}
+.form {
+  margin-top: 5vh;
+  padding: 4%;
+  border-radius: 30px;
+  background-color: transparent;
+  box-shadow: 15px 15px 15px grey;
+  width: 40%;
+  border: 5px solid rgb(0, 0, 0);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(214, 227, 193),
+    rgb(147, 179, 174),
+    rgb(192, 233, 152),
+    rgb(224, 204, 154),
+    rgb(215, 209, 185)
+  );
+}
+h2 {
+  color: rgb(26, 0, 4);
+  text-decoration: underline;
+  font-weight: bolder;
+  font-style: italic;
+}
+h1 {
+  text-shadow: 2px 2px 2px black;
+}
+.button {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#button {
+  border: 2px solid white;
+  background-color: rgb(16, 187, 38);
+  color: white;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  padding: 10px;
+  width: 40%;
+  
+}
+#button:active {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+#input {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+#output {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+}
+.form select {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 7px;
+  margin-left: 3%;
+  font-style: italic;
+}
